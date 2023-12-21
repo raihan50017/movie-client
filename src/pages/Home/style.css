@@ -1,0 +1,66 @@
+.home-banner {
+  padding: 100px 80px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+    url("home-banner.jpg");
+  background-size: cover;
+}
+.banner-slide-card {
+  position: relative;
+}
+.banner-slide-card-text:hover {
+  background-color: #14213da8;
+}
+.banner-slide-card-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-decoration: none;
+  background-color: #14213d7a;
+}
+
+.upcoming-movie-card {
+  transition: all 0.1s ease;
+  position: relative;
+}
+.upcoming-movie-card:hover {
+  border: 1px solid blue;
+  transform: scale(1.2);
+  border-radius: 5px;
+}
+.upcoming-movie-card-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-decoration: none;
+  background-color: rgba(177, 132, 223, 0.4);
+}
+
+.custom-gradient-button {
+  background-image: linear-gradient(
+    to right,
+    #314755 0%,
+    #26a0da 51%,
+    #314755 100%
+  );
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+  border-radius: 20px;
+}
+
+.custom-gradient-button:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+
+.card-hover-border:hover {
+  border: 2px solid blue;
+}
